@@ -1,0 +1,7 @@
+SELECT TOP (1000) [Location]
+      ,[Date]
+      ,[Population]
+      ,[New_Deaths]
+      ,[Rolling_Deaths]
+      ,[Percent_Died]
+  FROM [PortfolioProject].[dbo].[PercentPopulationDeaths]
